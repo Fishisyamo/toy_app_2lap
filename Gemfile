@@ -15,7 +15,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
 	gem 'sqlite3'
-	gem 'byebug', platforms: :mri
+	# gem 'byebug', platforms: :mri
+	gem 'pry-rails'
+	gem 'pry-doc'
+	gem 'pry-byebug'
+	gem 'pry-stack_explorer'
 end
 
 group :development do
